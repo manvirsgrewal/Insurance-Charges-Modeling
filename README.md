@@ -54,7 +54,7 @@ The goal of this project is to predict individual medical insurance charges base
 - Polynomial Regression: Test R² ≈ 0.87  
 - Gradient Boosting: Test R² ≈ 0.89  
 
-Key insights:  
+### Key insights:  
 - Smoking status is the dominant factor driving insurance costs.  
 - BMI and age also significantly influence charges, especially when combined with smoking.  
 - Regional and demographic variables have smaller but interpretable effects.  
@@ -64,4 +64,5 @@ Key insights:
 This project demonstrates how preprocessing, exploratory analysis, and model selection affect predictive performance and interpretability. Progressing from linear regression to polynomial interactions and Gradient Boosting allowed for better accuracy and a clearer understanding of feature importance.  
 
 Through this project, I learned how feature engineering, interaction terms, and advanced models like Gradient Boosting can reveal complex relationships in real-world datasets. I also gained experience in interpreting model results, performing residual analysis, and assessing feature importance.  
+
 For future improvement, I could calculate additional performance metrics beyond R², such as RMSE or MAE, to better evaluate model accuracy. I could explore more in-depth linear regression diagnostics and assumptions, and work on translating insights into practical applications, such as healthcare cost prediction tools or policy analysis frameworks. This would make the analysis more actionable and closer to real-world use cases.
